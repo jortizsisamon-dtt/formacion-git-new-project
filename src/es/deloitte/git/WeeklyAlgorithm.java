@@ -8,11 +8,11 @@ public class WeeklyAlgorithm {
 
     public static void main(String[] args) {
         System.out.println("=== WEEKLY ALGORITHM I ===");
-        getOrderedListBySurname();
+        getOrderedListBySurnameWA();
         System.out.println("==========================");
     }
 
-    private static void getOrderedListBySurname() {
+    private static void getOrderedListBySurnameWA() {
         System.out.println("For this String:");
         String unorderedNamesList = "Martin Fowler;Ken Schwaber;Arie VanBennekum;Alistair Cockburn;Ward Cunningham;Kent Beck;Andrew Hunt;Brian Marick;Dave Thomas;Mike Beedle;Ron Jeffries;Jon Kern;James Grenning;Robert Martin;Steve Mellor;Jeff Schwaber;Jim Highsmith";
         System.out.println(unorderedNamesList);
